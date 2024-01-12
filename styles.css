@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.calendario-container {
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.header,
+.day {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #f0f0f0;
+}
+
+.new-week {
+    background-color: #e0e0e0;
+}
+
+#fechaSeleccionada {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.day {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.header {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.with-X {
+    color: white; 
+    cursor:auto;
+}
+
